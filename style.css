@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }
+  .divbox {
+    background-image: linear-gradient(#ff6161,#ff768c);
+    padding: 25px;
+    max-width: 760px;
+    height: 600px;
+    margin: 25px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 4px solid #ff768c;
+    font-family: sans-serif;
+    font-size: 20px;
+    overflow-y:scroll;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+  h1 {
+    text-align: center;
+    margin: auto;
+    color: darkred;
+  }
+  #text {
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .addBtn {
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+  }
+   .box {
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 15px 0;
+  }
+  .pendingList {
+    float: left;
+    width: 46%;
+  }
+  
+  .doneList {
+    float: right;
+    width: 46%;
+    padding: 10px 15px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    padding: 10px;
+    border-bottom: 1px #ccc;
+  }
+  h2 {
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px #b1c9bb;
+    padding: 0 0 10px;
+    color:black;
+  }
+  .main{
+      margin-top: 40px;
+      text-align: center;
+      padding-bottom: 50px;
+  }
+  h1, h2 {
+      margin:0;
+      text-align:center;
+      text-transform:uppercase;
+    }
+   input{
+     padding: 10px;
+   } 
+.crossbtn{
+    background-color: red;
+    margin-left: 10px;
+}
+
+input[type='checkbox']{
+    accent-color: black;
+    margin-right: 12px;
+}

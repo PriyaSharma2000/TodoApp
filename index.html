@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>To-Do App</h1>
+    <div class="divbox">
+    <div class="main" id="main">
+        <input type="text" name="todo" id="text" placeholder="add new task" required><span class="btn"><button class="addBtn" id="addBtn">Add</button></span>
+    </div>
+
+    <div class="container">
+    <div class="pendingList box">
+        <h2>Pending</h2>
+        <span id="pending" class="pending"></span>
+    </div>
+
+    <div class="doneList box">
+        <h2>Done</h2><br>
+        <span id="done" class="done"></span><br>
+    </div>
+</div>
+    </div>
+</body>
+<script src="todo.js"></script>
+</html>
